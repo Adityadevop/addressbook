@@ -2,7 +2,7 @@ pipeline {
 
 agent { node { label 'Linux-Demo' } }
 tools {
-        maven 'maven3.8.4' 
+        maven 'maven3.3.9' 
         jdk 'jdk1.8'
     }
 stages {
